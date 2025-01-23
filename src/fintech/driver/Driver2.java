@@ -17,7 +17,10 @@ public class Driver2 {
         
 
         while(true){
+            Scanner scanner = new Scanner(System.in);
             String command = scanner.nextLine();
+            owner = scanner.nextLine();
+            name = scanner.nextLine();
             if (command.equalsIgnoreCase("create-account")) {
                 if (!scanner.hasNextLine()) break;
                 owner = scanner.nextLine();
