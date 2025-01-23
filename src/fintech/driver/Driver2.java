@@ -13,7 +13,7 @@ public class Driver2 {
         String owner;
         String name;
         Account account;
-        Scanner scanner = new Scanner(System.in);
+//       Scanner scanner = new Scanner(System.in);
         
 
         while(true){
@@ -63,7 +63,7 @@ public class Driver2 {
             break;
         }
         }
-        scanner.close();
+        //scanner.close();
         
         
 
