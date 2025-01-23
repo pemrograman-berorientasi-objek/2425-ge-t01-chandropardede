@@ -14,10 +14,10 @@ public class Driver2 {
         String name;
         Account account;
         Scanner scanner = new Scanner(System.in);
-        while(true){
-            if (!scanner.hasNextLine()) break;
-            String command = scanner.nextLine();
+        
 
+        while(true){
+            String command = scanner.nextLine();
             if (command.equalsIgnoreCase("create-account")) {
                 if (!scanner.hasNextLine()) break;
                 owner = scanner.nextLine();
